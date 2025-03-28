@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nairobi Supermarket Price Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>🛒 Nairobi Supermarket Price Checker</h1>
+        <input type="text" id="searchBar" placeholder="Search for a product...">
+    </header>
+
+    <main>
+        <div class="filters">
+            <select id="categoryFilter">
+                <option value="">All Categories</option>
+                <option value="Dairy">Dairy</option>
+                <option value="Bakery">Bakery</option>
+                <option value="Grocery">Grocery</option>
+            </select>
+        </div>
+
+        <div id="productList"></div>
+    </main>
+
+    <section id="shoppingListSection">
+        <h2>🛍️ Shopping List</h2>
+        <ul id="shoppingList"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Milk",
+        "category": "Dairy",
+        "prices": {
+          "Naivas": 55,
+          "Carrefour": 52,
+          "Cleanshelf": 54,
+          "Quickmart": 53
+        }
+      },
+      {
+        "id": 2,
+        "name": "Bread",
+        "category": "Bakery",
+        "prices": {
+          "Naivas": 50,
+          "Carrefour": 48,
+          "Cleanshelf": 49,
+          "Quickmart": 50
+        }
+      },
+      {
+        "id": 3,
+        "name": "Sugar",
+        "category": "Grocery",
+        "prices": {
+          "Naivas": 150,
+          "Carrefour": 145,
+          "Cleanshelf": 148,
+          "Quickmart": 149
+        }
+      }
+    ],
+    "shoppingList": []
+  }
