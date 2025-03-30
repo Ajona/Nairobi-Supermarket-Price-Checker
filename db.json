@@ -1,38 +1,424 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "name": "Milk",
-        "category": "Dairy",
-        "prices": {
-          "Naivas": 55,
-          "Carrefour": 52,
-          "Cleanshelf": 54,
-          "Quickmart": 53
-        }
+  "products": [
+    {
+      "id": "1",
+      "name": "Milk",
+      "category": "Dairy",
+      "prices": {
+        "Naivas": 60,
+        "Carrefour": 58,
+        "Cleanshelf": 62,
+        "Quickmart": 59
       },
-      {
-        "id": 2,
-        "name": "Bread",
-        "category": "Bakery",
-        "prices": {
-          "Naivas": 50,
-          "Carrefour": 48,
-          "Cleanshelf": 49,
-          "Quickmart": 50
-        }
+      "image": "pics/Milk.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Bread",
+      "category": "Bakery",
+      "prices": {
+        "Naivas": 50,
+        "Carrefour": 48,
+        "Cleanshelf": 49,
+        "Quickmart": 51
       },
-      {
-        "id": 3,
-        "name": "Sugar",
-        "category": "Grocery",
-        "prices": {
-          "Naivas": 150,
-          "Carrefour": 145,
-          "Cleanshelf": 148,
-          "Quickmart": 149
-        }
-      }
-    ],
-    "shoppingList": []
-  }
+      "image": "pics/Bread.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Eggs",
+      "category": "Dairy",
+      "prices": {
+        "Naivas": 150,
+        "Carrefour": 145,
+        "Cleanshelf": 155,
+        "Quickmart": 148
+      },
+      "image": "pics/Eggs.jpg"
+    },
+    {
+      "id": "4",
+      "name": "Sugar",
+      "category": "Pantry",
+      "prices": {
+        "Naivas": 130,
+        "Carrefour": 125,
+        "Cleanshelf": 135,
+        "Quickmart": 128
+      },
+      "image": "pics/Sugar.jpg"
+    },
+    {
+      "id": "5",
+      "name": "Salt",
+      "category": "Pantry",
+      "prices": {
+        "Naivas": 30,
+        "Carrefour": 28,
+        "Cleanshelf": 32,
+        "Quickmart": 29
+      },
+      "image": "pics/Salt.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Rice",
+      "category": "Grains",
+      "prices": {
+        "Naivas": 200,
+        "Carrefour": 190,
+        "Cleanshelf": 210,
+        "Quickmart": 195
+      },
+      "image": "pics/Rice.jpg"
+    },
+    {
+      "id": "7",
+      "name": "Cooking Oil",
+      "category": "Pantry",
+      "prices": {
+        "Naivas": 400,
+        "Carrefour": 390,
+        "Cleanshelf": 410,
+        "Quickmart": 395
+      },
+      "image": "pics/CookingOil.jpg"
+    },
+    {
+      "id": "8",
+      "name": "Flour",
+      "category": "Bakery",
+      "prices": {
+        "Naivas": 120,
+        "Carrefour": 115,
+        "Cleanshelf": 125,
+        "Quickmart": 118
+      },
+      "image": "pics/Flour.jpg"
+    },
+    {
+      "id": "9",
+      "name": "Tea Leaves",
+      "category": "Beverages",
+      "prices": {
+        "Naivas": 250,
+        "Carrefour": 240,
+        "Cleanshelf": 260,
+        "Quickmart": 245
+      },
+      "image": "pics/TeaLeaves.jpg"
+    },
+    {
+      "id": "10",
+      "name": "Coffee",
+      "category": "Beverages",
+      "prices": {
+        "Naivas": 300,
+        "Carrefour": 290,
+        "Cleanshelf": 310,
+        "Quickmart": 295
+      },
+      "image": "pics/Coffee.jpg"
+    },
+    {
+      "id": "11",
+      "name": "Tomatoes",
+      "category": "Vegetables",
+      "prices": {
+        "Naivas": 100,
+        "Carrefour": 95,
+        "Cleanshelf": 105,
+        "Quickmart": 98
+      },
+      "image": "pics/Tomatoes.jpg"
+    },
+    {
+      "id": "12",
+      "name": "Onions",
+      "category": "Vegetables",
+      "prices": {
+        "Naivas": 80,
+        "Carrefour": 75,
+        "Cleanshelf": 85,
+        "Quickmart": 78
+      },
+      "image": "pics/Onions.jpg"
+    },
+    {
+      "id": "13",
+      "name": "Potatoes",
+      "category": "Vegetables",
+      "prices": {
+        "Naivas": 150,
+        "Carrefour": 145,
+        "Cleanshelf": 155,
+        "Quickmart": 148
+      },
+      "image": "pics/Potatoes.jpg"
+    },
+    {
+      "id": "14",
+      "name": "Cabbage",
+      "category": "Vegetables",
+      "prices": {
+        "Naivas": 70,
+        "Carrefour": 65,
+        "Cleanshelf": 75,
+        "Quickmart": 68
+      },
+      "image": "pics/Cabbage.jpg"
+    },
+    {
+      "id": "15",
+      "name": "Carrots",
+      "category": "Vegetables",
+      "prices": {
+        "Naivas": 60,
+        "Carrefour": 58,
+        "Cleanshelf": 62,
+        "Quickmart": 59
+      },
+      "image": "pics/Carrots.jpg"
+    },
+    {
+      "id": "16",
+      "name": "Bananas",
+      "category": "Fruits",
+      "prices": {
+        "Naivas": 50,
+        "Carrefour": 48,
+        "Cleanshelf": 52,
+        "Quickmart": 49
+      },
+      "image": "pics/Bananas.jpg"
+    },
+    {
+      "id": "17",
+      "name": "Apples",
+      "category": "Fruits",
+      "prices": {
+        "Naivas": 200,
+        "Carrefour": 195,
+        "Cleanshelf": 205,
+        "Quickmart": 198
+      },
+      "image": "pics/Apples.jpg"
+    },
+    {
+      "id": "18",
+      "name": "Oranges",
+      "category": "Fruits",
+      "prices": {
+        "Naivas": 180,
+        "Carrefour": 175,
+        "Cleanshelf": 185,
+        "Quickmart": 178
+      },
+      "image": "pics/Oranges.jpg"
+    },
+    {
+      "id": "19",
+      "name": "Grapes",
+      "category": "Fruits",
+      "prices": {
+        "Naivas": 300,
+        "Carrefour": 290,
+        "Cleanshelf": 310,
+        "Quickmart": 295
+      },
+      "image": "pics/Grapes.jpg"
+    },
+    {
+      "id": "20",
+      "name": "Watermelon",
+      "category": "Fruits",
+      "prices": {
+        "Naivas": 350,
+        "Carrefour": 340,
+        "Cleanshelf": 360,
+        "Quickmart": 345
+      },
+      "image": "pics/Watermelon.jpg"
+    },
+    {
+      "id": "21",
+      "name": "Mangoes",
+      "category": "Fruits",
+      "prices": {
+        "Naivas": 150,
+        "Carrefour": 145,
+        "Cleanshelf": 155,
+        "Quickmart": 148
+      },
+      "image": "pics/Mangoes.jpg"
+    },
+    {
+      "id": "22",
+      "name": "Pineapple",
+      "category": "Fruits",
+      "prices": {
+        "Naivas": 200,
+        "Carrefour": 190,
+        "Cleanshelf": 210,
+        "Quickmart": 195
+      },
+      "image": "pics/Pineapple.jpg"
+    },
+    {
+      "id": "23",
+      "name": "Avocado",
+      "category": "Fruits",
+      "prices": {
+        "Naivas": 100,
+        "Carrefour": 95,
+        "Cleanshelf": 105,
+        "Quickmart": 98
+      },
+      "image": "pics/Avocado.jpg"
+    },
+    {
+      "id": "24",
+      "name": "Beef",
+      "category": "Meat",
+      "prices": {
+        "Naivas": 600,
+        "Carrefour": 590,
+        "Cleanshelf": 610,
+        "Quickmart": 595
+      },
+      "image": "pics/Beef.jpg"
+    },
+    {
+      "id": "25",
+      "name": "Chicken",
+      "category": "Meat",
+      "prices": {
+        "Naivas": 750,
+        "Carrefour": 740,
+        "Cleanshelf": 770,
+        "Quickmart": 745
+      },
+      "image": "pics/Chicken.webp"
+    },
+    {
+      "id": "26",
+      "name": "Fish",
+      "category": "Meat",
+      "prices": {
+        "Naivas": 500,
+        "Carrefour": 490,
+        "Cleanshelf": 510,
+        "Quickmart": 495
+      },
+      "image": "pics/Fish.jpg"
+    },
+    {
+      "id": "27",
+      "name": "Sausages",
+      "category": "Meat",
+      "prices": {
+        "Naivas": 350,
+        "Carrefour": 340,
+        "Cleanshelf": 360,
+        "Quickmart": 345
+      },
+      "image": "pics/Sausages.jpg"
+    },
+    {
+      "id": "28",
+      "name": "Yogurt",
+      "category": "Dairy",
+      "prices": {
+        "Naivas": 200,
+        "Carrefour": 190,
+        "Cleanshelf": 210,
+        "Quickmart": 195
+      },
+      "image": "pics/Yogurt.jpg"
+    },
+    {
+      "id": "29",
+      "name": "Butter",
+      "category": "Dairy",
+      "prices": {
+        "Naivas": 450,
+        "Carrefour": 440,
+        "Cleanshelf": 460,
+        "Quickmart": 445
+      },
+      "image": "pics/Butter.jpg"
+    },
+    {
+      "id": "30",
+      "name": "Cheese",
+      "category": "Dairy",
+      "prices": {
+        "Naivas": 550,
+        "Carrefour": 540,
+        "Cleanshelf": 560,
+        "Quickmart": 545
+      },
+      "image": "pics/Cheese.jpg"
+    },
+    {
+      "id": "31",
+      "name": "Juice",
+      "category": "Beverages",
+      "prices": {
+        "Naivas": 150,
+        "Carrefour": 140,
+        "Cleanshelf": 135,
+        "Quickmart": 145
+      },
+      "image": "pics/Juice.jpg"
+    },
+    {
+      "id": "1718",
+      "name": "Bike",
+      "category": "Leisure",
+      "prices": {
+        "Naivas": "200000",
+        "Carrefour": "300000",
+        "Cleanshelf": "30000",
+        "Quickmart": "24000"
+      },
+      "image": "https://www.canyon.com/dw/image/v2/BCML_PRD/on/demandware.static/-/Sites-canyon-master/default/dw484fc82f/images/full/2025_FULL_/2025/2025_FULL_neuron_cf-7_4005_M119_P10.jpg?sw=501&sh=282&sm=fit&sfrm=png&q=90&bgcolor=F2F2F2"
+    },
+    {
+      "id": "68b1",
+      "name": "Maize",
+      "category": "cereals ",
+      "prices": {
+        "Naivas": "120",
+        "Carrefour": "130",
+        "Cleanshelf": "150",
+        "Quickmart": "140"
+      },
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTyrsDusQFw5p6tyUw1JfmVCNUFRf779DZwm7Pz684-K4ihXBtBx-P2baRhwwn_23J2y7KBVI1Q3UoMLJIV80ZZ-Q"
+    },
+    {
+      "id": "a360",
+      "name": "Water",
+      "category": "Beverages",
+      "prices": {
+        "Naivas": "50",
+        "Carrefour": "60",
+        "Cleanshelf": "70",
+        "Quickmart": "40"
+      },
+      "image": "Water.jpg"
+    },
+    {
+      "id": "87b4",
+      "name": "Afia",
+      "category": "Beverages",
+      "prices": {
+        "Naivas": "70",
+        "Carrefour": "80",
+        "Cleanshelf": "85",
+        "Quickmart": "90"
+      },
+      "image": "https://cdn.mafrservices.com/sys-master-root/h65/hee/16872092270622/41041_main.jpg?im=Resize=1700"
+    }
+  ]
+}

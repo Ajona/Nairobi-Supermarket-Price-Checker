@@ -9,26 +9,45 @@
 <body>
     <header>
         <h1>🛒 Nairobi Supermarket Price Checker</h1>
-        <input type="text" id="searchBar" placeholder="Search for a product...">
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="🔍 Search product...">
+            <button id="search-button">Search</button>
+        </div>
+        <select id="supermarketFilter">
+            <option value="all">All Supermarkets</option>
+            <option value="Naivas">Naivas</option>
+            <option value="Carrefour">Carrefour</option>
+            <option value="Cleanshelf">Cleanshelf</option>
+            <option value="Quickmart">Quickmart</option>
+        </select>
+        <button id="viewShoppingList">🛍️ View Shopping List</button>
     </header>
 
     <main>
-        <div class="filters">
-            <select id="categoryFilter">
-                <option value="">All Categories</option>
-                <option value="Dairy">Dairy</option>
-                <option value="Bakery">Bakery</option>
-                <option value="Grocery">Grocery</option>
-            </select>
-        </div>
+        <section id="product-list">
+            <!-- Products will be dynamically added here -->
+        </section>
 
-        <div id="productList"></div>
+        <section id="add-product">
+            <h2>Add a New Product</h2>
+            <form id="product-form">
+                <input type="text" id="product-name" placeholder="Product Name" required>
+                <input type="text" id="product-category" placeholder="Category" required>
+                <input type="text" id="product-image" placeholder="Image Filename (e.g., Milk.jpg)" required>
+                <input type="number" id="price-naivas" placeholder="Price at Naivas" required>
+                <input type="number" id="price-carrefour" placeholder="Price at Carrefour" required>
+                <input type="number" id="price-cleanshelf" placeholder="Price at Cleanshelf" required>
+                <input type="number" id="price-quickmart" placeholder="Price at Quickmart" required>
+                <button type="submit">➕ Add Product</button>
+            </form>
+        </section>
+
+        <section id="shopping-list" class="hidden">
+            <h2>🛍️ Your Shopping List</h2>
+            <ul id="shopping-list-items"></ul>
+            <button id="closeShoppingList">Close</button>
+        </section>
     </main>
-
-    <section id="shoppingListSection">
-        <h2>🛍️ Shopping List</h2>
-        <ul id="shoppingList"></ul>
-    </section>
 
     <script src="script.js"></script>
 </body>
